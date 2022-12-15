@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 11-12-2022 a las 22:58:49
--- Versión del servidor: 10.4.24-MariaDB
--- Versión de PHP: 8.1.5
+-- Servidor: localhost:3390
+-- Tiempo de generación: 15-12-2022 a las 05:39:22
+-- Versión del servidor: 10.4.21-MariaDB
+-- Versión de PHP: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -45,7 +45,7 @@ INSERT INTO `lista` (`id_empleado`, `nombre`, `apellidos`, `telefono`, `correo`,
 (2, 'Juan', 'Lopez', '249491238', 'juanlopez@gmail.com', 'av del sol 88'),
 (3, 'Luis', 'Ramirez', '44292172852', 'luisramirez@gmaill.com', 'priv san lucas 4'),
 (4, 'luisa', 'gonzalez', '445828391', 'luisagonzalez@gmail.com', 'av solares 54'),
-(5, 'Daniel', 'Navarro', '449592831', 'danielnavarro@gmail.com', 'av san mateo 56');
+(7, 'daniel', 'dionicio', '4423565698', 'jesus@gmail.com', 'av de la luz');
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de la tabla `lista`
 --
 ALTER TABLE `lista`
-  MODIFY `id_empleado` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_empleado` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `user`
